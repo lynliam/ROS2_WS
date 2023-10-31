@@ -1,0 +1,4 @@
+Invoking command in '/data/steering_ws/build/chassis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/data/steering_ws/install/chassis_description:/opt/ros/humble /usr/bin/cmake --build /data/steering_ws/build/chassis -- -j12 -l12
+Invoked command in '/data/steering_ws/build/chassis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/data/steering_ws/install/chassis_description:/opt/ros/humble /usr/bin/cmake --build /data/steering_ws/build/chassis -- -j12 -l12
+Invoking command in '/data/steering_ws/build/chassis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/data/steering_ws/install/chassis_description:/opt/ros/humble /usr/bin/cmake --install /data/steering_ws/build/chassis
+Invoked command in '/data/steering_ws/build/chassis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/data/steering_ws/install/chassis_description:/opt/ros/humble /usr/bin/cmake --install /data/steering_ws/build/chassis

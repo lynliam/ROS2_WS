@@ -1,0 +1,26 @@
+[0.022s] Invoking command in '/data/steering_ws/build/chassis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/data/steering_ws/install/chassis_description:/opt/ros/humble /usr/bin/cmake --build /data/steering_ws/build/chassis -- -j12 -l12
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target steering[0m
+[0.072s] [ 50%] [32mBuilding CXX object CMakeFiles/steering.dir/src/chassis_control.cpp.o[0m
+[3.975s] [100%] [32m[1mLinking CXX executable steering[0m
+[4.141s] [100%] Built target steering
+[4.153s] Invoked command in '/data/steering_ws/build/chassis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/data/steering_ws/install/chassis_description:/opt/ros/humble /usr/bin/cmake --build /data/steering_ws/build/chassis -- -j12 -l12
+[4.183s] Invoking command in '/data/steering_ws/build/chassis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/data/steering_ws/install/chassis_description:/opt/ros/humble /usr/bin/cmake --install /data/steering_ws/build/chassis
+[4.189s] -- Install configuration: ""
+[4.189s] -- Installing: /data/steering_ws/install/chassis/lib/chassis/steering
+[4.190s] -- Set runtime path of "/data/steering_ws/install/chassis/lib/chassis/steering" to ""
+[4.191s] -- Up-to-date: /data/steering_ws/install/chassis/share/ament_index/resource_index/package_run_dependencies/chassis
+[4.191s] -- Up-to-date: /data/steering_ws/install/chassis/share/ament_index/resource_index/parent_prefix_path/chassis
+[4.191s] -- Up-to-date: /data/steering_ws/install/chassis/share/chassis/environment/ament_prefix_path.sh
+[4.191s] -- Up-to-date: /data/steering_ws/install/chassis/share/chassis/environment/ament_prefix_path.dsv
+[4.191s] -- Up-to-date: /data/steering_ws/install/chassis/share/chassis/environment/path.sh
+[4.191s] -- Up-to-date: /data/steering_ws/install/chassis/share/chassis/environment/path.dsv
+[4.191s] -- Up-to-date: /data/steering_ws/install/chassis/share/chassis/local_setup.bash
+[4.191s] -- Up-to-date: /data/steering_ws/install/chassis/share/chassis/local_setup.sh
+[4.191s] -- Up-to-date: /data/steering_ws/install/chassis/share/chassis/local_setup.zsh
+[4.191s] -- Up-to-date: /data/steering_ws/install/chassis/share/chassis/local_setup.dsv
+[4.191s] -- Installing: /data/steering_ws/install/chassis/share/chassis/package.dsv
+[4.191s] -- Up-to-date: /data/steering_ws/install/chassis/share/ament_index/resource_index/packages/chassis
+[4.191s] -- Up-to-date: /data/steering_ws/install/chassis/share/chassis/cmake/chassisConfig.cmake
+[4.191s] -- Up-to-date: /data/steering_ws/install/chassis/share/chassis/cmake/chassisConfig-version.cmake
+[4.192s] -- Up-to-date: /data/steering_ws/install/chassis/share/chassis/package.xml
+[4.196s] Invoked command in '/data/steering_ws/build/chassis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/data/steering_ws/install/chassis_description:/opt/ros/humble /usr/bin/cmake --install /data/steering_ws/build/chassis

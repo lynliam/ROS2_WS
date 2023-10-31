@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.000453] (chassis) JobQueued: {'identifier': 'chassis', 'dependencies': OrderedDict()}
+[0.000667] (chassis_description) JobQueued: {'identifier': 'chassis_description', 'dependencies': OrderedDict()}
+[0.000900] (chassis) JobStarted: {'identifier': 'chassis'}
+[0.011238] (chassis_description) JobStarted: {'identifier': 'chassis_description'}
+[0.018927] (chassis) JobProgress: {'identifier': 'chassis', 'progress': 'cmake'}
+[0.019656] (chassis) JobProgress: {'identifier': 'chassis', 'progress': 'build'}
+[0.020462] (chassis) Command: {'cmd': ['/usr/bin/cmake', '--build', '/data/steering_ws/build/chassis', '--', '-j12', '-l12'], 'cwd': '/data/steering_ws/build/chassis', 'env': OrderedDict([('HOSTNAME', 'e87fad27008e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/data/steering_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/data/steering_ws/install/chassis_description:/data/steering_ws/install/chassis:/opt/ros/humble'), ('PWD', '/data/steering_ws/build/chassis'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/data/steering_ws/install/chassis_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/data/steering_ws/install/chassis:/data/steering_ws/install/chassis_description:/opt/ros/humble')]), 'shell': False}
+[0.054471] (chassis) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target steering\x1b[0m\n'}
+[0.069742] (chassis) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/steering.dir/src/chassis_control.cpp.o\x1b[0m\n'}
+[0.099982] (-) TimerEvent: {}
+[0.200226] (-) TimerEvent: {}
+[0.300464] (-) TimerEvent: {}
+[0.400717] (-) TimerEvent: {}
+[0.501010] (-) TimerEvent: {}
+[0.533625] (chassis_description) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/chassis_description', 'build', '--build-base', '/data/steering_ws/build/chassis_description/build', 'install', '--record', '/data/steering_ws/build/chassis_description/install.log', '--single-version-externally-managed'], 'cwd': '/data/steering_ws/src/chassis_description', 'env': {'HOSTNAME': 'e87fad27008e', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/data/steering_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/data/steering_ws/install/chassis_description:/data/steering_ws/install/chassis:/opt/ros/humble', 'PWD': '/data/steering_ws/build/chassis_description', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/data/steering_ws/build/chassis_description/prefix_override:/data/steering_ws/install/chassis_description/lib/python3.10/site-packages:/data/steering_ws/install/chassis_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/data/steering_ws/install/chassis'}, 'shell': False}
+[0.601087] (-) TimerEvent: {}
+[0.701370] (-) TimerEvent: {}
+[0.744977] (chassis_description) StdoutLine: {'line': b'running egg_info\n'}
+[0.745426] (chassis_description) StdoutLine: {'line': b'writing ../../build/chassis_description/chassis_description.egg-info/PKG-INFO\n'}
+[0.745618] (chassis_description) StdoutLine: {'line': b'writing dependency_links to ../../build/chassis_description/chassis_description.egg-info/dependency_links.txt\n'}
+[0.745783] (chassis_description) StdoutLine: {'line': b'writing entry points to ../../build/chassis_description/chassis_description.egg-info/entry_points.txt\n'}
+[0.745937] (chassis_description) StdoutLine: {'line': b'writing requirements to ../../build/chassis_description/chassis_description.egg-info/requires.txt\n'}
+[0.746009] (chassis_description) StdoutLine: {'line': b'writing top-level names to ../../build/chassis_description/chassis_description.egg-info/top_level.txt\n'}
+[0.747324] (chassis_description) StdoutLine: {'line': b"reading manifest file '../../build/chassis_description/chassis_description.egg-info/SOURCES.txt'\n"}
+[0.747977] (chassis_description) StdoutLine: {'line': b"writing manifest file '../../build/chassis_description/chassis_description.egg-info/SOURCES.txt'\n"}
+[0.748070] (chassis_description) StdoutLine: {'line': b'running build\n'}
+[0.748137] (chassis_description) StdoutLine: {'line': b'running build_py\n'}
+[0.748290] (chassis_description) StdoutLine: {'line': b'running install\n'}
+[0.748380] (chassis_description) StdoutLine: {'line': b'running install_lib\n'}
+[0.749250] (chassis_description) StdoutLine: {'line': b'running install_data\n'}
+[0.749680] (chassis_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.750978] (chassis_description) StdoutLine: {'line': b"removing '/data/steering_ws/install/chassis_description/lib/python3.10/site-packages/chassis_description-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.751171] (chassis_description) StdoutLine: {'line': b'Copying ../../build/chassis_description/chassis_description.egg-info to /data/steering_ws/install/chassis_description/lib/python3.10/site-packages/chassis_description-0.0.0-py3.10.egg-info\n'}
+[0.751832] (chassis_description) StdoutLine: {'line': b'running install_scripts\n'}
+[0.767168] (chassis_description) StdoutLine: {'line': b"writing list of installed files to '/data/steering_ws/build/chassis_description/install.log'\n"}
+[0.784859] (chassis_description) CommandEnded: {'returncode': 0}
+[0.796392] (chassis_description) JobEnded: {'identifier': 'chassis_description', 'rc': 0}
+[0.801450] (-) TimerEvent: {}
+[0.901700] (-) TimerEvent: {}
+[1.001952] (-) TimerEvent: {}
+[1.102170] (-) TimerEvent: {}
+[1.202426] (-) TimerEvent: {}
+[1.302678] (-) TimerEvent: {}
+[1.402931] (-) TimerEvent: {}
+[1.503180] (-) TimerEvent: {}
+[1.603405] (-) TimerEvent: {}
+[1.703665] (-) TimerEvent: {}
+[1.803916] (-) TimerEvent: {}
+[1.904168] (-) TimerEvent: {}
+[2.004415] (-) TimerEvent: {}
+[2.104649] (-) TimerEvent: {}
+[2.204891] (-) TimerEvent: {}
+[2.305164] (-) TimerEvent: {}
+[2.405431] (-) TimerEvent: {}
+[2.505694] (-) TimerEvent: {}
+[2.605995] (-) TimerEvent: {}
+[2.706265] (-) TimerEvent: {}
+[2.806514] (-) TimerEvent: {}
+[2.906758] (-) TimerEvent: {}
+[3.007001] (-) TimerEvent: {}
+[3.107243] (-) TimerEvent: {}
+[3.207487] (-) TimerEvent: {}
+[3.307730] (-) TimerEvent: {}
+[3.407974] (-) TimerEvent: {}
+[3.508221] (-) TimerEvent: {}
+[3.551218] (chassis) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable steering\x1b[0m\n'}
+[3.608321] (-) TimerEvent: {}
+[3.689073] (chassis) StdoutLine: {'line': b'[100%] Built target steering\n'}
+[3.696233] (chassis) CommandEnded: {'returncode': 0}
+[3.708416] (-) TimerEvent: {}
+[3.712048] (chassis) JobProgress: {'identifier': 'chassis', 'progress': 'install'}
+[3.718030] (chassis) Command: {'cmd': ['/usr/bin/cmake', '--install', '/data/steering_ws/build/chassis'], 'cwd': '/data/steering_ws/build/chassis', 'env': OrderedDict([('HOSTNAME', 'e87fad27008e'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/data/steering_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/data/steering_ws/install/chassis_description:/data/steering_ws/install/chassis:/opt/ros/humble'), ('PWD', '/data/steering_ws/build/chassis'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/data/steering_ws/install/chassis_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/data/steering_ws/install/chassis:/data/steering_ws/install/chassis_description:/opt/ros/humble')]), 'shell': False}
+[3.723483] (chassis) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.723707] (chassis) StdoutLine: {'line': b'-- Installing: /data/steering_ws/install/chassis/lib/chassis/steering\n'}
+[3.724720] (chassis) StdoutLine: {'line': b'-- Set runtime path of "/data/steering_ws/install/chassis/lib/chassis/steering" to ""\n'}
+[3.724817] (chassis) StdoutLine: {'line': b'-- Up-to-date: /data/steering_ws/install/chassis/share/ament_index/resource_index/package_run_dependencies/chassis\n'}
+[3.724917] (chassis) StdoutLine: {'line': b'-- Up-to-date: /data/steering_ws/install/chassis/share/ament_index/resource_index/parent_prefix_path/chassis\n'}
+[3.725104] (chassis) StdoutLine: {'line': b'-- Up-to-date: /data/steering_ws/install/chassis/share/chassis/environment/ament_prefix_path.sh\n'}
+[3.725176] (chassis) StdoutLine: {'line': b'-- Up-to-date: /data/steering_ws/install/chassis/share/chassis/environment/ament_prefix_path.dsv\n'}
+[3.725263] (chassis) StdoutLine: {'line': b'-- Up-to-date: /data/steering_ws/install/chassis/share/chassis/environment/path.sh\n'}
+[3.725323] (chassis) StdoutLine: {'line': b'-- Up-to-date: /data/steering_ws/install/chassis/share/chassis/environment/path.dsv\n'}
+[3.725380] (chassis) StdoutLine: {'line': b'-- Up-to-date: /data/steering_ws/install/chassis/share/chassis/local_setup.bash\n'}
+[3.725438] (chassis) StdoutLine: {'line': b'-- Up-to-date: /data/steering_ws/install/chassis/share/chassis/local_setup.sh\n'}
+[3.725494] (chassis) StdoutLine: {'line': b'-- Up-to-date: /data/steering_ws/install/chassis/share/chassis/local_setup.zsh\n'}
+[3.725550] (chassis) StdoutLine: {'line': b'-- Up-to-date: /data/steering_ws/install/chassis/share/chassis/local_setup.dsv\n'}
+[3.725606] (chassis) StdoutLine: {'line': b'-- Installing: /data/steering_ws/install/chassis/share/chassis/package.dsv\n'}
+[3.725663] (chassis) StdoutLine: {'line': b'-- Up-to-date: /data/steering_ws/install/chassis/share/ament_index/resource_index/packages/chassis\n'}
+[3.725720] (chassis) StdoutLine: {'line': b'-- Up-to-date: /data/steering_ws/install/chassis/share/chassis/cmake/chassisConfig.cmake\n'}
+[3.725776] (chassis) StdoutLine: {'line': b'-- Up-to-date: /data/steering_ws/install/chassis/share/chassis/cmake/chassisConfig-version.cmake\n'}
+[3.725832] (chassis) StdoutLine: {'line': b'-- Up-to-date: /data/steering_ws/install/chassis/share/chassis/package.xml\n'}
+[3.726275] (chassis) CommandEnded: {'returncode': 0}
+[3.758619] (chassis) JobEnded: {'identifier': 'chassis', 'rc': 0}
+[3.759262] (-) EventReactorShutdown: {}

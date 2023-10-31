@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+
+<robot name="chassis_demo">
+
+ <!-- Robot Footprint -->
+    <link name="base_footprint"/>
+    <!--base_link-->
+    <link name="base_link">
+        <visual>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <box size="40.0 40.0 1.0"/>    
+            </geometry>
+            <material name="blue">
+                <color rgba="0.1 0.1 1.0 0.5"/>
+            </material> 
+        </visual>
+    </link>
+
+    <joint name="base_joint" type="fixed">
+        <parent link="base_footprint"/>
+        <child link="base_link"/>
+        <origin xyz="0.0 0.0 10.0" rpy="0 0 0"/>
+    </joint>
+
+    <!--steering_wheel-->
+    <link name="steering_wheel_l1_out">
+        <visual>
+            <origin xyz="0.0 0.0 0.0" rpy="1.57079 0.0 0.0"/>
+            <geometry>
+                <cylinder radius="5.0" length="6.0"/>
+            </geometry>
+            <material name="black">
+                <color rgba="0.0 0.0 0.0 0.8"/>
+            </material>
+        </visual>
+    </link>
+
+    <link name="steering_wheel_l1_in">
+        <visual>
+            <origin xyz="0.0 0.0 0.0" rpy="1.57079 0.0 0.0"/>
+            <geometry>
+                <cylinder radius="4.0" length="7.0"/>
+            </geometry>
+            <material name="black">
+                <color rgba="0.0 0.0 0.0 0.8"/>
+            </material>
+        </visual>
+    </link>
+
+    <joint name="left1_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="steering_wheel_l1_in"/>
+        <origin xyz="20.0 20.0 -5.0"/>
+        <axis xyz="0.0 0.0 1.0"/>
+    </joint>
+
+    <joint name="wheel_joint_left1" type="continuous">
+        <parent link="steering_wheel_l1_in"/>
+        <child link="steering_wheel_l1_out"/>
+        <origin xyz="0.0 0.0 0.0"/>
+        <axis xyz="0.0 1.0 0.0"/>
+    </joint>
+    
+
+    
+
+    <!--steering_wheel-->
+    <link name="steering_wheel_l2_out">
+        <visual>
+            <origin xyz="0.0 0.0 0.0" rpy="1.57079 0.0 0.0"/>
+            <geometry>
+                <cylinder radius="5.0" length="6.0"/>
+            </geometry>
+            <material name="black">
+                <color rgba="0.0 0.0 0.0 0.8"/>
+            </material>
+        </visual>
+    </link>
+
+        <link name="steering_wheel_l2_in">
+        <visual>
+            <origin xyz="0.0 0.0 0.0" rpy="1.57079 0.0 0.0"/>
+            <geometry>
+                <cylinder radius="4.0" length="7.0"/>
+            </geometry>
+            <material name="black">
+                <color rgba="0.0 0.0 0.0 0.8"/>
+            </material>
+        </visual>
+    </link>
+
+    <joint name="left2_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="steering_wheel_l2_in"/>
+        <origin xyz="20.0 -20.0 -5.0"/>
+        <axis xyz="0.0 0.0 1.0"/>
+    </joint>
+
+    <joint name="wheel_joint_left2" type="continuous">
+        <parent link="steering_wheel_l2_in"/>
+        <child link="steering_wheel_l2_out"/>
+        <origin xyz="0.0 0.0 0.0"/>
+        <axis xyz="0.0 1.0 0.0"/>
+    </joint>
+
+
+
+
+    <!--steering_wheel-->
+    <link name="steering_wheel_r1_in">
+        <visual>
+            <origin xyz="0.0 0.0 0.0" rpy="1.57079 0.0 0.0"/>
+            <geometry>
+                <cylinder radius="5.0" length="6.0"/>
+            </geometry>
+            <material name="black">
+                <color rgba="0.0 0.0 0.0 0.8"/>
+            </material>
+        </visual>
+    </link>
+
+    <link name="steering_wheel_r1_out">
+        <visual>
+            <origin xyz="0.0 0.0 0.0" rpy="1.57079 0.0 0.0"/>
+            <geometry>
+                <cylinder radius="4.0" length="7.0"/>
+            </geometry>
+            <material name="black">
+                <color rgba="0.0 0.0 0.0 0.8"/>
+            </material>
+        </visual>
+    </link>
+
+    <joint name="right1_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="steering_wheel_r1_in"/>
+        <origin xyz="-20.0 20.0 -5.0"/>
+        <axis xyz="0.0 0.0 1.0"/>
+    </joint>
+
+    <joint name="wheel_joint_right1" type="continuous">
+        <parent link="steering_wheel_r1_in"/>
+        <child link="steering_wheel_r1_out"/>
+        <origin xyz="0.0 0.0 0.0"/>
+        <axis xyz="0.0 1.0 0.0"/>
+    </joint>
+
+
+
+
+    <!--steering_wheel-->
+    <link name="steering_wheel_r2_out">
+        <visual>
+            <origin xyz="0.0 0.0 0.0" rpy="1.57079 0.0 0.0"/>
+            <geometry>
+                <cylinder radius="5.0" length="6.0"/>
+            </geometry>
+            <material name="black">
+                <color rgba="0.0 0.0 0.0 0.8"/>
+            </material>
+        </visual>
+    </link>
+
+<link name="steering_wheel_r2_in">
+        <visual>
+            <origin xyz="0.0 0.0 0.0" rpy="1.57079 0.0 0.0"/>
+            <geometry>
+                <cylinder radius="4.0" length="7.0"/>
+            </geometry>
+            <material name="black">
+                <color rgba="0.0 0.0 0.0 0.8"/>
+            </material>
+        </visual>
+    </link>
+
+    <joint name="right2_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="steering_wheel_r2_in"/>
+        <origin xyz="-20.0 -20.0 -5.0"/>
+        <axis xyz="0.0 0.0 1.0"/>
+    </joint>
+
+    <joint name="wheel_joint_right2" type="continuous">
+        <parent link="steering_wheel_r2_in"/>
+        <child link="steering_wheel_r2_out"/>
+        <origin xyz="0.0 0.0 0.0"/>
+        <axis xyz="0.0 1.0 0.0"/>
+    </joint>
+
+
+</robot>

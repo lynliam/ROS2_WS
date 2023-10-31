@@ -1,0 +1,16 @@
+/data/steering_ws/install/chassis/lib/chassis/steering
+/data/steering_ws/install/chassis/share/ament_index/resource_index/package_run_dependencies/chassis
+/data/steering_ws/install/chassis/share/ament_index/resource_index/parent_prefix_path/chassis
+/data/steering_ws/install/chassis/share/chassis/environment/ament_prefix_path.sh
+/data/steering_ws/install/chassis/share/chassis/environment/ament_prefix_path.dsv
+/data/steering_ws/install/chassis/share/chassis/environment/path.sh
+/data/steering_ws/install/chassis/share/chassis/environment/path.dsv
+/data/steering_ws/install/chassis/share/chassis/local_setup.bash
+/data/steering_ws/install/chassis/share/chassis/local_setup.sh
+/data/steering_ws/install/chassis/share/chassis/local_setup.zsh
+/data/steering_ws/install/chassis/share/chassis/local_setup.dsv
+/data/steering_ws/install/chassis/share/chassis/package.dsv
+/data/steering_ws/install/chassis/share/ament_index/resource_index/packages/chassis
+/data/steering_ws/install/chassis/share/chassis/cmake/chassisConfig.cmake
+/data/steering_ws/install/chassis/share/chassis/cmake/chassisConfig-version.cmake
+/data/steering_ws/install/chassis/share/chassis/package.xml

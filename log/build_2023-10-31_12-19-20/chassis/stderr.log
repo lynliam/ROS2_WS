@@ -1,0 +1,4 @@
+[01m[K/data/steering_ws/src/chassis/src/chassis_control.cpp:[m[K In member function ‘[01m[Kvoid Chassis::pub_joint_data(const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<double, std::allocator<double> >&, const std::vector<double, std::allocator<double> >&, const std::vector<double, std::allocator<double> >&)[m[K’:
+[01m[K/data/steering_ws/src/chassis/src/chassis_control.cpp:98:52:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kspeed[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   98 |                         [01;35m[Kconst std::vector<double> &speed[m[K,
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K

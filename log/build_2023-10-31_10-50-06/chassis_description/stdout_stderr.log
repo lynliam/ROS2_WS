@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/chassis_description/chassis_description.egg-info
+writing ../../build/chassis_description/chassis_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/chassis_description/chassis_description.egg-info/dependency_links.txt
+writing entry points to ../../build/chassis_description/chassis_description.egg-info/entry_points.txt
+writing requirements to ../../build/chassis_description/chassis_description.egg-info/requires.txt
+writing top-level names to ../../build/chassis_description/chassis_description.egg-info/top_level.txt
+writing manifest file '../../build/chassis_description/chassis_description.egg-info/SOURCES.txt'
+reading manifest file '../../build/chassis_description/chassis_description.egg-info/SOURCES.txt'
+writing manifest file '../../build/chassis_description/chassis_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /data/steering_ws/build/chassis_description/build
+creating /data/steering_ws/build/chassis_description/build/lib
+creating /data/steering_ws/build/chassis_description/build/lib/chassis_description
+copying chassis_description/__init__.py -> /data/steering_ws/build/chassis_description/build/lib/chassis_description
+running install
+running install_lib
+creating /data/steering_ws/install/chassis_description/lib/python3.10/site-packages/chassis_description
+copying /data/steering_ws/build/chassis_description/build/lib/chassis_description/__init__.py -> /data/steering_ws/install/chassis_description/lib/python3.10/site-packages/chassis_description
+byte-compiling /data/steering_ws/install/chassis_description/lib/python3.10/site-packages/chassis_description/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /data/steering_ws/install/chassis_description/share/ament_index
+creating /data/steering_ws/install/chassis_description/share/ament_index/resource_index
+creating /data/steering_ws/install/chassis_description/share/ament_index/resource_index/packages
+copying resource/chassis_description -> /data/steering_ws/install/chassis_description/share/ament_index/resource_index/packages
+copying package.xml -> /data/steering_ws/install/chassis_description/share/chassis_description
+creating /data/steering_ws/install/chassis_description/share/chassis_description/launch
+copying launch/display_rviz.launch.py -> /data/steering_ws/install/chassis_description/share/chassis_description/launch
+creating /data/steering_ws/install/chassis_description/share/chassis_description/urdf
+copying urdf/chassis_demo.urdf -> /data/steering_ws/install/chassis_description/share/chassis_description/urdf
+creating /data/steering_ws/install/chassis_description/share/chassis_description/rviz2
+copying rviz2/chassis_rviz.rviz -> /data/steering_ws/install/chassis_description/share/chassis_description/rviz2
+running install_egg_info
+Copying ../../build/chassis_description/chassis_description.egg-info to /data/steering_ws/install/chassis_description/lib/python3.10/site-packages/chassis_description-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/data/steering_ws/build/chassis_description/install.log'

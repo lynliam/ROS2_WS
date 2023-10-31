@@ -1,0 +1,21 @@
+[0.516s] Invoking command in '/data/steering_ws/src/chassis_description': PYTHONPATH=/data/steering_ws/build/chassis_description/prefix_override:/data/steering_ws/install/chassis_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/chassis_description build --build-base /data/steering_ws/build/chassis_description/build install --record /data/steering_ws/build/chassis_description/install.log --single-version-externally-managed
+[0.733s] running egg_info
+[0.733s] writing ../../build/chassis_description/chassis_description.egg-info/PKG-INFO
+[0.733s] writing dependency_links to ../../build/chassis_description/chassis_description.egg-info/dependency_links.txt
+[0.733s] writing entry points to ../../build/chassis_description/chassis_description.egg-info/entry_points.txt
+[0.733s] writing requirements to ../../build/chassis_description/chassis_description.egg-info/requires.txt
+[0.734s] writing top-level names to ../../build/chassis_description/chassis_description.egg-info/top_level.txt
+[0.735s] reading manifest file '../../build/chassis_description/chassis_description.egg-info/SOURCES.txt'
+[0.736s] writing manifest file '../../build/chassis_description/chassis_description.egg-info/SOURCES.txt'
+[0.736s] running build
+[0.736s] running build_py
+[0.736s] running install
+[0.736s] running install_lib
+[0.737s] running install_data
+[0.738s] copying launch/display_rviz.launch.py -> /data/steering_ws/install/chassis_description/share/chassis_description/launch
+[0.738s] running install_egg_info
+[0.739s] removing '/data/steering_ws/install/chassis_description/lib/python3.10/site-packages/chassis_description-0.0.0-py3.10.egg-info' (and everything under it)
+[0.740s] Copying ../../build/chassis_description/chassis_description.egg-info to /data/steering_ws/install/chassis_description/lib/python3.10/site-packages/chassis_description-0.0.0-py3.10.egg-info
+[0.740s] running install_scripts
+[0.756s] writing list of installed files to '/data/steering_ws/build/chassis_description/install.log'
+[0.776s] Invoked command in '/data/steering_ws/src/chassis_description' returned '0': PYTHONPATH=/data/steering_ws/build/chassis_description/prefix_override:/data/steering_ws/install/chassis_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/chassis_description build --build-base /data/steering_ws/build/chassis_description/build install --record /data/steering_ws/build/chassis_description/install.log --single-version-externally-managed
